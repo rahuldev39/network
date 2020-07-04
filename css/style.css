@@ -230,7 +230,7 @@ nav ul li:hover > ul,
 
 header {
     width: 100%;
-    background-color: #ff5252;
+    background-color: #2f3a52;
     position: fixed;
     z-index: 100;
 }
@@ -505,8 +505,8 @@ nav > ul > li > a:hover {
 }
 
 .user-account {
-    border-left: 1px solid #e44545;
-    border-right: 1px solid #e44545;
+    border-left: 1px solid #1f283c;
+    border-right: 1px solid #1e283c;
     box-sizing: border-box;
     position: relative;
 }
@@ -6890,4 +6890,9 @@ ul#myTab {
 }
 .btn-link {
     color: #ff5252;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #ff5252;
+    border-color: #ff5252;
 }
