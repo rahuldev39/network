@@ -2,7 +2,7 @@
 								Fonts
 ===================================================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /* ================================================================================== 
 										Reset Css
@@ -35,7 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden;
 	font-weight: 400;
 	background-color: #f2f2f2;
@@ -230,7 +230,7 @@ nav ul li:hover > ul,
 
 header {
     width: 100%;
-    background-color: #2d6cdf;
+    background-color: #ff5252;
     position: fixed;
     z-index: 100;
 }
@@ -260,12 +260,12 @@ header {
 .ask-question {
 	background-color: #fff;
 	padding: 10px 25px;
-	color: #2d6cdf !important;
+	color: #ff5252 !important;
 	font-size: 14px;
 	font-weight: 600;
 }
 .ask-question:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 
 .forum-bar ul li {
@@ -316,7 +316,6 @@ header {
 }
 .search-bar {
     width: 470px;
-    margin-top: 9px;
 }
 .search-bar form {
 	
@@ -342,9 +341,9 @@ header {
 	border: 0;
 }
 .search-bar form button i {
-	color: #2d6cdf;
-	font-size: 20px;
-	font-weight: bold;
+    color: #2f3a52;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav {
@@ -368,7 +367,7 @@ nav ul ul {
 	top: 100%;
 	left: 0;
 	width: 200px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	text-align: left;
 	padding: 20px 0 10px 0; 
 	opacity: 0;
@@ -473,13 +472,14 @@ nav ul ul li a {
     text-transform: capitalize;
     font-weight: 600;
     text-align: center;
-    background-color: #2d6cdf;
+    background-color: #ff5252;
     padding: 18px 0;
     display: block;
 }
 nav ul li span {
-	display: block;
-	height: 14px;
+    display: block;
+    height: 14px;
+    margin-bottom: 8px;
 }
 nav ul li span img {
 	float: none;
@@ -505,10 +505,8 @@ nav > ul > li > a:hover {
 }
 
 .user-account {
-
-   
-    border-left: 1px solid #2c5cce;
-    border-right: 1px solid #2d5cce;
+    border-left: 1px solid #e44545;
+    border-right: 1px solid #e44545;
     box-sizing: border-box;
     position: relative;
 }
@@ -598,7 +596,7 @@ nav > ul > li > a:hover {
 .search_form form button {
 	color: #f2f2f2;
 	font-size: 14px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	padding: 0 10px;
 	height: 100%;
 	position: absolute;
@@ -698,7 +696,7 @@ main {
 }
 .username-dt {
     width: 100%;
-    background-color: #2d6cdf;
+    background-color: #ff5252;
     padding-top: 40px;
     height: 100px;
 }
@@ -772,7 +770,7 @@ main {
 	font-size: 20px;
 }
 .user-fw-status li a {
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 14px;
 	font-weight: 600;	
 }
@@ -788,10 +786,9 @@ main {
 	display: grid;
 }
 .sd-title h3 {
-	color: #000000;
-	font-size: 18px;
-	font-weight: 600;
-	
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
 }
 .sd-title i {
 	
@@ -848,7 +845,7 @@ main {
 	cursor: pointer;
 }
 .suggestion-usd > span i:hover {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border-radius: 3px;
 }
@@ -859,12 +856,12 @@ main {
 	padding-top: 10px;
 }
 .view-more > a {
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 14px;
 	font-weight: 700;
 }
 .view-more > a:hover {
-	color: #2d6cdf
+	color: #ff5252
 }
 
 
@@ -898,7 +895,7 @@ main {
 	font-weight: 500;
 }
 .tags-sec ul li a:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .cp-sec {
 	
@@ -939,7 +936,7 @@ main {
 	width: 100%;
 	padding: 23px 20px;
 	background-color: #fff;
-	border-top: 4px solid #2d6cdf;
+	border-top: 4px solid #ff5252;
 	border-left: 1px solid #e4e4e4;
 	border-bottom: 1px solid #e4e4e4;
 	border-right: 1px solid #e4e4e4;
@@ -981,7 +978,7 @@ main {
 }
 .post-st ul li a:hover,
 .post-st ul li a.active {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 
@@ -1079,7 +1076,7 @@ main {
 	font-weight: 600;
 }
 .ed-opts > a:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .usy-name {
 	
@@ -1172,7 +1169,7 @@ main {
 	line-height: 30px;
 }
 .bk-links li i.la-envelope {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 .bid_now {
 	color: #fff;
@@ -1236,7 +1233,7 @@ main {
     margin-bottom: .6rem;
 }
 .job_descp > p a {
-	color: #2d6cdf;
+	color: #ff5252;
 	font-weight: 600;
 }
 
@@ -1290,10 +1287,10 @@ main {
 	margin-right: 5px;
 }
 .like-com li a:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .like-com li a.active {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .like-com li a i {
 	margin-right: 2px;
@@ -1302,21 +1299,20 @@ main {
 	top: 2px;
 }
 .like-com li span {
-	color: #ffffff;
-	font-size: 13px;
-	width: 30px;
-	height: 30px;
-	background-color: #2d6cdf;
-	line-height: 30px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	-ms-border-radius: 30px;
-	-o-border-radius: 30px;
-	border-radius: 30px;
-	
-	text-align: center;
-	font-weight: 600;
-	margin-left: -25px;
+    color: #ffffff;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    background-color: #2f3a52;
+    line-height: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: -25px;
 }
 .like-com li .com {
 	position: relative;
@@ -1333,7 +1329,7 @@ main {
 	cursor: pointer;
 }
 .job-status-bar > a:hover {
-	color: #2d6cdf !important;
+	color: #ff5252 !important;
 }
 .job-status-bar > a i {
 	font-size: 14px;
@@ -1441,7 +1437,7 @@ main {
 	background-color: #53d690;
 }
 .envlp {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 .envlp img {
 	float: none;
@@ -1460,7 +1456,7 @@ main {
 	font-weight: 600;
 }
 .user-profy > a:hover {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .slick-slide img {
@@ -1529,7 +1525,7 @@ main {
 }
 .slick-previous:hover:before,
 .slick-nexti:hover:before {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border-color: transparent;
 }
@@ -1627,7 +1623,7 @@ main {
 }
 .comment > a.active,
 .comment > a:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .comment > a i {
 	font-weight: 600;
@@ -1662,7 +1658,7 @@ main {
 .comment_box form button {
 	
 	color: #fff;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	height: 40px;
 	padding: 0 10px;
 	text-align: center;
@@ -1745,12 +1741,12 @@ main {
 }
 .sign_link > a {
 	display: inline-block;
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 14px;
 	font-weight: 500;
 }
 .sign_link > a:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 
 /* ============== Widget Jobs ============ */
@@ -1839,7 +1835,7 @@ main {
 .post-project h3 {
 	
 	width: 100%;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	text-align: center;
 	font-size: 18px;
@@ -1888,7 +1884,7 @@ main {
 	margin-right: 15px;
 }
 .post-project-fields form ul li button.active {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .post-project-fields form ul li button,
@@ -1904,7 +1900,7 @@ main {
 }
 .post-project-fields form ul li button:hover,
 .post-project-fields form ul li a:hover {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 } 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -2136,7 +2132,7 @@ select {
 	border-radius: 0 4px 4px 0;
 }
 .sign-control li.current a {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .sign_in_sec {
@@ -2164,7 +2160,7 @@ select {
 	left: 0;
 	width: 30px;
 	height: 2px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 
 
@@ -2229,7 +2225,7 @@ select {
 .sign_in_sec form button {
 	color: #ffffff;
 	font-size: 16px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	padding: 12px 27px;
 	border:0;
 	font-weight: 500;
@@ -2283,7 +2279,7 @@ select {
 	color: #ffffff;
 	opacity: 0;
 	visibility: hidden;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	position: absolute;
 	font-family: fontawesome;
 	top: 50%;
@@ -2345,7 +2341,7 @@ select {
 	color: #ffffff;
 	opacity: 0;
 	visibility: hidden;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	position: absolute;
 	font-family: fontawesome;
 	top: 49%;
@@ -2408,7 +2404,7 @@ select {
 	display: inline-block;
 }
 .signup-tab ul li.current a {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .signup-tab ul li:last-child a {
@@ -2514,7 +2510,7 @@ footer {
 	color: #b2b2b2;
 }
 .footy-sec.mn ul li a:hover{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .footy-sec.mn ul li {
 	border-color: #b2b2b2;
@@ -2536,10 +2532,10 @@ footer {
 }
 .cover-sec > a {
 	display: inline-block;
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 16px;
 	background-color: #fff;
-	border: 1px solid #2d6cdf;
+	border: 1px solid #ff5252;
 	position: absolute;
 	top: 30px;
 	right: 0;
@@ -2585,7 +2581,7 @@ footer {
     width: 40px;
     height: 40px;
     text-align: center;
-    background: #2d6cdf;
+    background: #ff5252;
     padding: 12px;
     color: #ffff;
     left: 0;
@@ -2594,7 +2590,7 @@ footer {
 .add-dp i:hover {
 	font-size: 14px;
 	border: 2px solid #fff;
-    background: #2d6cdf;
+    background: #ff5252;
 	padding: 11px;
 }
 .add-dp {
@@ -2808,7 +2804,7 @@ footer {
 	filter: grayscale(0);
 }
 .tab-feed ul li.active span {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .tab-feed ul li img {
 	float: none;
@@ -2837,7 +2833,7 @@ footer {
 	display: inline-block;
 	color: #ffffff;
 	font-size: 16px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	padding: 12px;
 	font-weight: 500;
 }
@@ -3000,7 +2996,7 @@ footer {
 }
 .portfolio-btn a {
     display: inline-block;
-    color: #2d6cdf;
+    color: #ff5252;
     font-size: 16px;
 	font-weight: 600;
 }
@@ -3165,7 +3161,7 @@ footer {
 	padding: 15px;
 }
 .save {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border-color: transparent;
 }
@@ -3274,7 +3270,7 @@ footer {
 }
 
 .file-submit [type="file"] + label {
-    background: #2d6cdf;
+    background: #ff5252;
     border: none;
 
     border-top-right-radius: 0px;
@@ -3363,7 +3359,7 @@ a:hover {
 }
 .billing-method ul li i {
 	font-size: 13px;
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .lt-sec {
 	
@@ -3385,7 +3381,7 @@ a:hover {
 	display: inline-block;
 	color: #ffffff;
 	font-size: 16px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	padding: 10px 25px;
 }
 
@@ -3480,7 +3476,7 @@ a:hover {
 	left: 24px;
 	width: 7px;
 	height: 7px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	-ms-border-radius: 100px;
@@ -3497,7 +3493,7 @@ a:hover {
 .payment_methods form button {
 	color: #ffffff;
 	font-size: 16px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	padding: 10px 15px;
 	border: 0;
 	cursor: pointer;
@@ -3641,7 +3637,7 @@ a:hover {
 	background-color: #53d690;
 }
 .message-us {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 .hire-us {
 	background-color: #51a5fb;
@@ -3690,7 +3686,7 @@ a:hover {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 500;
@@ -3725,7 +3721,7 @@ a:hover {
 }
 .filter-heading h3 {
 	
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -3754,11 +3750,11 @@ a:hover {
 	margin-bottom: 12px !important;
 }
 .filter--tt2 .dropdown .dropdown-menu a:hover {
-    color: #2d6cdf !important;
+    color: #ff5252 !important;
 	background: none !important;
 }
 .filter--tt2 .dropdown .dropdown-menu a:focus {
-    color: #2d6cdf !important;
+    color: #ff5252 !important;
 	background: none !important;
 }
 .filter--tt2  a {
@@ -3857,7 +3853,7 @@ a:hover {
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	border-radius: 100px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	top: 3px;
 	left: 3px;
 }
@@ -3901,7 +3897,7 @@ a:hover {
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	border-radius: 100px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	border: 2px solid #e3e3e3;	
 	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,0.43);
 	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,0.43);
@@ -3987,7 +3983,7 @@ a:hover {
 	right: 10px;
 	width: 20px;
 	height: 20px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	text-align: center;
 	font-size: 12px;
 	color: #fff;
@@ -4043,7 +4039,7 @@ a:hover {
 }
 .con-title {
     width: 100%;
-    background-color: #2d6cdf;
+    background-color: #ff5252;
     padding: 15px 25px;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -4115,7 +4111,7 @@ a:hover {
 	right: 0;
 }
 .activee {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 .usy-info {
 	display: table-cell;
@@ -4174,7 +4170,7 @@ a:hover {
 .chat-msg p {
 	color: #ffffff;
 	font-size: 14px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	line-height: 18px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -4277,7 +4273,7 @@ a:hover {
 	resize: none;
 }
 .typing-msg form button {
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 18px;
 	font-weight: 600;
 	position: absolute;
@@ -4377,7 +4373,7 @@ a:hover {
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
 	background-color: inherit;
-	color: #2d6cdf;
+	color: #ff5252;
 	border-color: inherit;
 }
 
@@ -4463,7 +4459,7 @@ a:hover {
 	cursor: pointer;
 }
 .save-stngs ul li button:hover {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border-color: transparent;
 }
@@ -4549,12 +4545,12 @@ a:hover {
 	padding-left: 10px;
 }
 .notification-info h3 {
-	color: #686868;
-	font-size: 14px;
-	font-weight: 500;
-	border: 0;
-	padding: 0;
-	margin-bottom: 6px;
+    color: #686868;
+    font-size: 14px;
+    font-weight: 300;
+    border: 0;
+    padding: 0;
+    margin-bottom: 6px;
 }
 .notification-info h3 a {
     color: #000000;
@@ -4667,7 +4663,7 @@ a:hover {
 	padding-left: 10px;
 }
 .bx-info h3 {
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 5px;
@@ -4794,7 +4790,7 @@ a:hover {
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	border-radius: 100px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	position: absolute;
 	top: -3px;
 	right: 0;
@@ -4960,7 +4956,7 @@ a:hover {
 .message-inner-dt > p {
 	
 	width: 60%;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	font-size: 14px;
 	line-height: 22px;
 	padding: 10px 35px 10px 35px;
@@ -5023,7 +5019,7 @@ a:hover {
 .mf-field button {
 	
 	width: 17%;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	height: 45px;
 	text-align: center;
 	color: #fff;
@@ -5068,10 +5064,10 @@ a:hover {
 	border-bottom: 2px solid transparent;
 }
 .forum-links ul li.active {
-	border-color:#2d6cdf;
+	border-color:#ff5252;
 }
 .forum-links ul li.active a {
-	color: #2d6cdf;	
+	color: #ff5252;	
 }
 .forum-links ul li a {
 	display: inline-block;
@@ -5154,7 +5150,7 @@ a:hover {
 	font-weight: 600;
 }
 .react-links li a:hover {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .react-links li a i {
 	padding-right: 7px;
@@ -5222,7 +5218,7 @@ a:hover {
 	color: #b2b2b2;
 }
 .pagination li .page-link.active {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border-color: transparent;
 }
@@ -5403,7 +5399,7 @@ a:hover {
 .post_comment_sec form button {
 	color: #ffffff;
 	font-size: 14px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	padding: 10px 25px;
 	border: 0;
 	font-weight: 600;
@@ -5432,7 +5428,7 @@ a:hover {
 }
 .next-prev > a:hover {
 	color: #fff;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 .fl-left {
 	
@@ -5471,7 +5467,7 @@ a:hover {
 	color: #53d690;
 }
 .widget-feat ul li i.fa-comment {
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .widget-feat ul li i.fa-share-alt {
 	color: #51a5fb;
@@ -5546,12 +5542,12 @@ a:hover {
 	padding-top: 5px;
 }
 .cadidatesbtn button{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	border:none;
 	margin-top: -3px;
 }
 .cadidatesbtn button:hover{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 }
 .cadidatesbtn span{ 
 	background-color: #bd2e1c;
@@ -5581,17 +5577,17 @@ a:hover {
     padding: 10px;
 }
 .cadidatesbtn i:hover{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
-	border:1px solid #2d6cdf;
+	border:1px solid #ff5252;
 }
 .inner{
 	border-bottom: 2px solid #e5e5e5;
 	padding-bottom: 10px;
 }
 .inner li a:hover{
-	color: #2d6cdf;
-	border-bottom: 2px solid #2d6cdf;
+	color: #ff5252;
+	border-bottom: 2px solid #ff5252;
 	padding-bottom: 9px;
 }
 .inner li a{
@@ -5607,7 +5603,7 @@ a:hover {
 	padding-bottom: 5px;
 }
 .clrbtn a{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
     color: #fff;
     padding: 5px 10px 5px 10px;
     margin-right: 15px;
@@ -5636,7 +5632,7 @@ a:hover {
 	color: #fff;
 }
 .devepbtn a:hover{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .rew-reply hr{
@@ -5682,7 +5678,7 @@ a:hover {
 }
 .add-pic-box {
     display: inline-block;
-    color: #2d6cdf;
+    color: #ff5252;
     font-size: 16px;
     position: absolute;
     top: 30px;
@@ -5701,9 +5697,9 @@ a:hover {
 
 .add-pic-box [type="file"] + label {
 	background: #fff;
-	border: 2px solid #2d6cdf;
+	border: 2px solid #ff5252;
 	border-radius: 3px;
-	color: #2d6cdf;
+	color: #ff5252;
 	cursor: pointer;
 	display: inline-block;
 	font-size:15px;
@@ -5718,7 +5714,7 @@ a:hover {
 	text-transform: uppercase;
 }
 .add-pic-box [type="file"] + label:hover {
-	background: #2d6cdf;
+	background: #ff5252;
 	color: #fff;
 }
 .noreview li i{
@@ -5739,7 +5735,7 @@ a:hover {
 	padding-bottom:0;
 }
 .activebidbtn i:hover{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border:none;
 }
@@ -5882,7 +5878,7 @@ a:hover {
     border-top-right-radius: 3px;
 }
 .topsearch i{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .dropdown-toggle::after {
    position: absolute;
@@ -5939,7 +5935,7 @@ a:hover {
 	font-weight: 600;
 }
 .helpforum a{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	padding: 10px 15px 10px 15px;
     line-height: 4;
@@ -5960,7 +5956,7 @@ a:hover {
 .actionstext a{
 	font-size: 16px;
 	font-weight: 500;
-	color: #2d6cdf;
+	color: #ff5252;
 	line-height: 2;
 	display: block;
 }
@@ -5971,11 +5967,11 @@ a:hover {
 .helpform h3{
 	font-size: 18px;
 	font-weight: 400;
-	color: #2d6cdf;
+	color: #ff5252;
 	margin-bottom: 10px;
 }
 .helpform a {
-    background-color: #2d6cdf;
+    background-color: #ff5252;
     color: #fff;
     padding: 10px 15px 10px 15px;
 	border-radius: 3px;
@@ -5991,7 +5987,7 @@ a:hover {
 	color: #000;
 }
 .bookingsideber h3:active{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .helpforum h4{
 	font-size: 16px;
@@ -6026,7 +6022,7 @@ a:hover {
 	padding-top: 20px;
 }
 .btns a:hover {
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .privacy h3 {
@@ -6045,7 +6041,7 @@ a:hover {
 }
 .privacy i{
 	
-	color: #2d6cdf;
+	color: #ff5252;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -6079,7 +6075,7 @@ a:hover {
 }
 .privabtns a:hover{
     color: #fff;
-    background-color: #2d6cdf;
+    background-color: #ff5252;
 }
 .privac{
 	background-color: #fff;
@@ -6119,7 +6115,7 @@ a:hover {
     font-size: 12px;
     width: 100%;
     height: 100%;
-    background: #2d6cdf;
+    background: #ff5252;
     display: block;
     border-radius: 50%;
     padding-top: 3px;
@@ -6170,7 +6166,7 @@ a:hover {
 	cursor: pointer;
 }
 .reply-area span:hover{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .reply-area i{
 	font-size: 16px;
@@ -6201,7 +6197,7 @@ a:hover {
 	border-radius: 3px;
 }
 .postcomment a{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
     color: #fff;
     padding: 9px 25px 8px 25px;
     line-height: 37px;
@@ -6214,16 +6210,16 @@ a:hover {
 	box-shadow: none;
 }
 .widget-about button:hover{
-	background-color:  #2d6cdf;
+	background-color:  #ff5252;
 }
  .widget-about button{
- 	background-color: #2d6cdf;
+ 	background-color: #ff5252;
     border: none;
     padding: 12px 0;
     width: 100%;
 }
 .widget-about p{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	padding: 10px 0;
 }
@@ -6242,14 +6238,14 @@ a:hover {
     line-height: 24px;
 }
 .paymethd  p{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .copylink p{
 	background-color: #efefef;
 	padding: 7px 0 8px 10px;
 }
 .copylink a{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
     padding: 10px 15px 10px 15px;
     border-radius: 4px;
@@ -6319,7 +6315,7 @@ a:hover {
 }
 
 .modal-header{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	display: block!important;
 }
 .modal-body{
@@ -6387,7 +6383,7 @@ a:hover {
 	font-weight: 500;
 }
 .sponser i{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	margin-right: 5px;
 	padding: 2px;
@@ -6416,19 +6412,19 @@ a:hover {
 	border-radius: 3px;
 }
 .modal-footer button:hover{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
-	border:1px solid #2d6cdf;
+	border:1px solid #ff5252;
 }
 
 .place-bid-btn {
 	font-size: 15px;
 	font-weight: 500;
 	color: #fff !important;
-	background-color: #2d6cdf !important;
+	background-color: #ff5252 !important;
 	border:none;
 	padding: 10px;
-	border:1px solid #2d6cdf;
+	border:1px solid #ff5252;
 	border-radius: 3px;
 }
 
@@ -6442,7 +6438,7 @@ a:hover {
 	border-radius: 3px;
 }
 .replybtn{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
     color: #fff;
     padding: 10px;
     margin-left: 15px;
@@ -6463,7 +6459,7 @@ a:hover {
 	font-size: 12px;
 	margin: 5px 5px 0 0;
 	padding: 3px;
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 	border-radius: 50%;
 
@@ -6503,7 +6499,7 @@ ul#myTab {
 	font-weight: 500;
 }
 #my-bids  li a:hover{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 #saved-jobs ul{
 	margin-bottom: 20px;
@@ -6514,7 +6510,7 @@ ul#myTab {
 	font-weight: 500;
 }
 #saved-jobs  li a:hover{
-	color: #2d6cdf;
+	color: #ff5252;
 }
 .wordpressdevlp h2 {
     font-size: 18px;
@@ -6523,15 +6519,15 @@ ul#myTab {
 }
 #saved-jobs .nav-tabs .nav-item.show .nav-link, #saved-jobs .nav-tabs .nav-link.active {
     background-color: inherit;
-    color: #2d6cdf !important;
+    color: #ff5252 !important;
 	padding-bottom: 9px;
-	border-bottom: 2px solid #2d6cdf !important;
+	border-bottom: 2px solid #ff5252 !important;
 }
 #my-bids .nav-tabs .nav-item.show .nav-link, #my-bids .nav-tabs .nav-link.active {
     background-color: inherit;
-    color: #2d6cdf !important;
+    color: #ff5252 !important;
 	padding-bottom: 9px;
-	border-bottom: 2px solid #2d6cdf !important;
+	border-bottom: 2px solid #ff5252 !important;
 }
 .descptab li img{
 	float: left!important;
@@ -6623,7 +6619,7 @@ ul#myTab {
     font-weight: 600;
 }
 .select-files button:hover{
-	background-color: #2d6cdf;
+	background-color: #ff5252;
 	color: #fff;
 }
 .close{
@@ -6661,7 +6657,7 @@ ul#myTab {
   display: inline-block;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
-  background: #2d6cdf; 
+  background: #ff5252; 
   font-weight: 500;
   padding: 10px 15px;
   outline: none;
@@ -6670,14 +6666,14 @@ ul#myTab {
   cursor: pointer;
 }
 .custom-file-input:hover::before {
-  background-color: #2d6cdf;
+  background-color: #ff5252;
   color: #fff;
 }
 .custom-file-input:active {
   outline: 0;
 }
 .custom-file-input:active::before {
-  background: #2d6cdf; 
+  background: #ff5252; 
   color: #fff;
 }
 .bids-time{
@@ -6748,8 +6744,8 @@ ul#myTab {
 }
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
-    border-color: #2d6cdf;
-    background-color: #2d6cdf;
+    border-color: #ff5252;
+    background-color: #ff5252;
 	box-shadow:none;
 	outline:none;
 }
@@ -6798,7 +6794,7 @@ ul#myTab {
     width: 25px;
     height: 25px;
     font-size: .56rem;
-    background-color: #2d6cdf;
+    background-color: #2f3a52;
     color: white;
     border-radius: 5px;
     display: inline-flex;
@@ -6837,10 +6833,10 @@ ul#myTab {
 	margin-right: 8px;
 }
 .add-post-header .nav-pills .nav-link:hover {
-    background-color: #2d6cdf0d;
+    background-color: #2f3a520d;
 }
 .add-post-header .nav-pills .nav-link.active {
-    background-color: #2d6cdf1c;
+    background-color: #2f3a5229;
     color: #4e4e4e;
     font-size: 15px;
 }
@@ -6859,7 +6855,7 @@ ul#myTab {
 	max-width: 180px;
 }
 .owl-carousel .card-body h3 {
-    height: 34px;
+    height: 30px;
     overflow: hidden;
 }
 .owl-carousel .owl-item .card{
@@ -6869,10 +6865,10 @@ ul#myTab {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #ababab;
+    background-color: #2f3a52;
     padding: 7px 9px !important;
     font-size: 13px;
-    color: #505050;
+    color: #ffffff;
 }
 .owl-carousel .owl-nav button[type="button"]:focus{
 	outline: none;
@@ -6886,4 +6882,12 @@ ul#myTab {
 }
 .owl-carousel .owl-nav button[type="button"].disabled{
 	opacity: .5;
+}
+.btn-dark {
+    color: #fff;
+    background-color: #2f3a52;
+    border-color: #2f3a52;
+}
+.btn-link {
+    color: #ff5252;
 }
