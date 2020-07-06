@@ -14,7 +14,7 @@
 		left: 0;
 		width: 200px;
 		height: 100%;
-		background-color: #0c2050;
+		background-color: #1d2535;
 		padding: 25px 20px;
 		opacity: 0;
 		visibility: hidden;
@@ -70,9 +70,52 @@
     width: 230px;
 }
 }
+@media (min-width: 991px) {
 
+	.main-ws-sec {
+		position: relative;
+	}
+	.user-info-container {
+		position: absolute;
+		bottom: 100%;
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	.user-location {
+		color: #ffffff94;
+	}
+	.user-tab-sec h3 {
+		color: #ffffff;
+		font-size: 40px;
+		margin-bottom: 8px;
+	}
+
+	.star-descp span {
+		color: #ffffff94;
+		font-size: 17px;
+		font-weight: 400;
+	}
+}
 
 @media (max-width: 991px) {
+	.user-info-container{
+		width: 100%;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	}
+	.cover-sec {
+		height: 300px;
+	}
+	.add-pic-box .row > div{
+		display: flex;
+		justify-content: space-between;
+	}
+	
 	.sgt-text span {font-size: 14px;}
 	main {
 		padding: 20px 0 60px 0;
@@ -161,6 +204,12 @@
 
 
 @media (max-width: 576px) {
+	.user-pro-img img{
+		width: 100px;
+	}
+	.user-pro-img {
+		margin-top: -53px;
+	}
 	.signin-pop {margin-bottom: 40px;}
 	.login-resources ul li {margin-bottom: 7px;}
 	.logo {width: 100%;text-align: center;}

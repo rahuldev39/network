@@ -676,14 +676,11 @@ main {
 	width: 100%;
 }
 .main-section-data {
-	
-	width: 100%;
+    width: 100%;
+    z-index: 4;
+    position: relative;
 }
-.main-left-sidebar {
-	
-	width: 100%;
-	margin-top: -20px;
-}
+
 .full-width {
 
     width: 100%;
@@ -2472,10 +2469,10 @@ select {
 	
 	margin-top: 5px;
 }
-.footy-sec ul li {
-	display: inline-block;
-	padding: 0 10px;
-	border-right: 1px solid #ffffff;
+.tab-feed {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 .footy-sec ul li:last-child {
 	border-right: none;
@@ -2524,7 +2521,11 @@ footer {
 	margin-top: 34px;
 	padding-right: 30px;
 }
-
+.footy-sec ul li {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #ffffff;
+}
 /* ================== USER PROFILE =================== */
 
 .cover-sec img {
@@ -2551,20 +2552,18 @@ footer {
 /* ============= user_profile ============= */
 
 .user_profile {
-	
-	width: 100%;
-	background-color: #fff;
-	margin-bottom: 20px;
-	text-align: center;
-	margin-top: -40px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 1px;
 }
 .user-pro-img {
-	
-	width: 100%;
-	text-align: center;
-	margin-bottom: 28px;
-	margin-top: -95px;
-	position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: -115px;
+    position: relative;
 }
 .user-pro-img .add-dp {
 	position: absolute;
@@ -2685,10 +2684,9 @@ footer {
 	border-bottom: 1px solid #e5e5e5;
 }
 .social_links li a {
-	
-	width: 100%;
-	color: #51a5fb;
-	font-size: 14px;
+    width: 100%;
+    color: #2f3a52;
+    font-size: 14px;
     font-weight: 400;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -2699,6 +2697,9 @@ footer {
 	font-size: 20px;
 	position: relative;
 	top: 3px;
+}
+.social_links li a i.edit-link {
+    font-size: 13px;
 }
 .la-globe {
 	color: #51a5fb;
@@ -2783,8 +2784,8 @@ footer {
 	margin-top: 20px;
 }
 .tab-feed ul {
-	
-	width: 100%;
+    width: 100%;
+    border-bottom: 1px solid #dedede;
 }
 .tab-feed ul li {
 	display: inline-block;
@@ -2797,6 +2798,15 @@ footer {
 .tab-feed.st2 ul li {
 	margin-right: 17px;
 }
+.tab-feed.st2 ul li a {
+    display: block;
+    padding: 14px 0px;
+    vertical-align: middle;
+    margin-bottom: -1.5px;
+}
+.tab-feed.st2 ul li.active a {
+    border-bottom: 2px solid #f5504e;
+}
 .tab-feed ul li:last-child {
 	margin-right: 0;
 }
@@ -2804,7 +2814,8 @@ footer {
 	filter: grayscale(0);
 }
 .tab-feed ul li.active span {
-	color: #ff5252;
+    color: #ff5252;
+    font-weight: 500;
 }
 .tab-feed ul li img {
 	float: none;
@@ -2919,9 +2930,7 @@ footer {
 	color: #000000;
 }
 .user-profile-ov i {
-	color: #000000;
-	font-size: 13px;
-	padding-left: 5px;
+    margin-right: 4px;
 }
 .user-profile-ov h4 {
 	font-size: 16px;
@@ -3955,9 +3964,10 @@ a:hover {
 /* ============== chatbox-list ============== */
 
 .chatbox-list {
-	position: fixed;
-	bottom: 0;
-	right: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
 }
 .chatbox {
 	display: inline-block;
@@ -5685,7 +5695,13 @@ a:hover {
     right: 0;
     font-weight: 600;
     margin-right: 0;
-	width: 100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 86px;
+    z-index: 1;
+    text-align: right;
+    background-color: #2f3a52b8;
+    top: 0px;
 }
 
 .add-pic-box [type="file"] {
@@ -5696,22 +5712,19 @@ a:hover {
 }
 
 .add-pic-box [type="file"] + label {
-	background: #fff;
-	border: 2px solid #ff5252;
-	border-radius: 3px;
-	color: #ff5252;
-	cursor: pointer;
-	display: inline-block;
-	font-size:15px;
-	font-weight: 600;
-	outline: none;
-	padding: 12px 20px;
-	position: relative;
-	transition: all 0.3s;
-	vertical-align: middle;
-	margin: 0;
-	
-	text-transform: uppercase;
+    background: #fff;
+    border: 2px solid #ff5252;
+    border-radius: 6px;
+    color: #ff5252;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    outline: none;
+    padding: 10px 14px;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+    margin: 0;
 }
 .add-pic-box [type="file"] + label:hover {
 	background: #ff5252;
@@ -6895,4 +6908,18 @@ ul#myTab {
     color: #fff;
     background-color: #ff5252;
     border-color: #ff5252;
+}
+.profile-bg{
+	object-fit: cover;
+
+}
+.cover-sec{
+	height: 250px;
+}
+.text-danger {
+    color: #ff5252!important;
+}
+.btn-small {
+    padding: 3px 7px;
+    font-size: 12px;
 }
