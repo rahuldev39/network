@@ -804,6 +804,7 @@ main {
     width: 100%;
     padding: 15px 20px;
     display: flex;
+    align-items: end;
 }
 .suggestion-usd img {
 	-webkit-border-radius: 100px;
@@ -822,30 +823,26 @@ main {
 	margin-bottom: 4px;
 }
 .sgt-text span {
-	color: #686868;
-	font-size: 14px;
+    color: #686868;
+    font-size: 13px;
 }
 .suggestion-usd > span {
     margin-top: 4px;
     position: relative;
     margin-left: auto;
 }
-.suggestion-usd > span i {
-	color: #b2b2b2;
-	width: 30px;
-	height: 30px;
-	border-radius: 3px;
-	border: 1px solid #e5e5e5;
-	text-align: center;	
-	line-height: 30px;
-	font-weight: 700;
-	cursor: pointer;
+.suggestion-usd > span {
+    font-size: 14px;
+    color: #2f3a52;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
 }
-.suggestion-usd > span i:hover {
-	background-color: #ff5252;
-	color: #fff;
-	border-radius: 3px;
-}
+
 .view-more {
 	
 	width: 100%;
@@ -2603,13 +2600,14 @@ footer {
 }
 
 .user-pro-img img {
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	-ms-border-radius: 100px;
-	-o-border-radius: 100px;
-	border-radius: 100px;
-	float: none;
-	border: 5px solid #fff;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    float: none;
+    border: 5px solid #fff;
+    width: 180px;
 }
 .user_pro_status {
 	
@@ -4049,7 +4047,7 @@ a:hover {
 }
 .con-title {
     width: 100%;
-    background-color: #ff5252;
+    background-color: #2f3a52;
     padding: 15px 25px;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -6922,4 +6920,8 @@ ul#myTab {
 .btn-small {
     padding: 3px 7px;
     font-size: 12px;
+}
+.widget-reputation .reputation {
+    font-size: 33px;
+    font-weight: 500;
 }
