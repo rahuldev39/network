@@ -286,7 +286,32 @@
 													<span>Community Post (3)</span>
 												</a>
 											</li>
-											<li class="nav-item dropdown select-dropdown">
+											
+											<li class="nav-item ">
+												<a class="nav-link court-link" data-toggle="tab" href="#tab3">
+													<span>SC</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link court-link" data-toggle="tab" href="#tab3">
+													<span>Delhi HC</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link court-link" data-toggle="tab" href="#tab3">
+													<span>Madras HC</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link court-link" data-toggle="tab" href="#tab3">
+													<span>Mumbai HC</span>
+												</a>
+											</li>
+
+										   <!--<li class="nav-item dropdown select-dropdown">
 												<a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button">Court</a>
 												<div class="dropdown-menu shadow-sm">
 												  <a class="dropdown-item" data-toggle="tab" href="#tab3">Supreme Court</a>
@@ -296,7 +321,7 @@
 												  <div class="dropdown-divider"></div>
 												  <a class="dropdown-item" data-toggle="tab" href="#tab3">Separated link</a>
 												</div>
-											  </li>
+											  </li> -->
 												
 										</ul>
 									</div><!-- tab-feed end-->
@@ -788,11 +813,11 @@
 
 	<script>
 
-		$('.select-dropdown .dropdown-menu .dropdown-item').on('click', function(){
+		$('.court-link').on('click', function(){
 
 			let selectTabText = this.innerText;
 
-			$('.select-dropdown > .nav-link, .tab-pane .court-title').html(selectTabText)
+			$('.tab-pane .court-title').html(selectTabText)
 			
 			
 
